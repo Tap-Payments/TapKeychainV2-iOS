@@ -6,11 +6,11 @@ Pod::Spec.new do |tapKeychain|
     tapKeychain.name                    = 'TapKeychainV2'
     tapKeychain.summary                 = 'Basic swift wrapper for iOS keychain.'
     tapKeychain.requires_arc            = true
-    tapKeychain.version                 = '1.0.0'
+    tapKeychain.version                 = '1.0.1'
     tapKeychain.license                 = { :type => 'MIT', :file => 'LICENSE' }
     tapKeychain.author                  = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapKeychain.homepage                = 'https://github.com/Tap-Payments/TapKeychainV2-iOS'
     tapKeychain.source                  = { :git => 'https://github.com/Tap-Payments/TapKeychainV2-iOS.git', :tag => tapKeychain.version.to_s }
-    tapKeychain.source_files            = 'TapKeychain/**/*.swift'
+    tapKeychain.source_files            = 'TapKeychainV2/TapKeychainV2/**/*.swift'
     
 end
