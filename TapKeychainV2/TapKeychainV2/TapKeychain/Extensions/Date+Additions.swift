@@ -5,6 +5,8 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
+
 extension Date: KeychainRepresentable {
 
     public func tap_toKeychainData() -> Data? {
