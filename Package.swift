@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "TapKeychainV2",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v15)
     ],
     products: [
         .library(
